@@ -1,0 +1,143 @@
+#table-container {
+    max-height: 260px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#table-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#table-container {
+    scrollbar-width: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    align-items: center;
+    top: 80px;
+    right: 200px;
+    width: 520px;
+    height: 455px;
+    background-color: #b77c3d;
+    z-index: 1000;
+    border-radius: 30px;
+    border: 4px solid #8c5a31;
+}
+
+.modal-title {
+    position: absolute;
+    top: -55px;
+    right: 135px;
+    background: linear-gradient(#54b3c1, #26889b);
+    border: 2px solid #26889b;
+    border-radius: 20px;
+    padding: 0 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #8c5a31;
+    padding: 20px;
+    border-radius: 20px;
+    width: 430px;
+    height: 300px;
+}
+
+.close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#54b3c1, #26889b);
+    border: 2px solid #26889b;
+    border-radius: 3px;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.table-row, .table-header {
+    height: 30px;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#54b3c1, #26889b);
+    border: 2px solid #26889b;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: white;
+}
+
+.table-cell {
+    flex: 1;
+    text-align: center;
+}
+
+.table-cell img {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 30px;
+    background: linear-gradient(#bc4c15, #863811);
+    padding: 0 5px;
+}
+
+.table-header {
+    background: linear-gradient(#00a2c4, #00819c);
+    border: 2px solid #00819c;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.table-row {
+    display: flex;
+}
+
+.table-cell {
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.rating-cell {
+    flex: 1;
+}
+
+.photo-cell {
+    flex: 1;
+}
+
+.name-cell {
+    flex: 3;
+}
+
+.experience-cell {
+    flex: 1;
+}
+
+.row-friend {
+    background: linear-gradient(#0c6b80, #0d4f5d);
+    border: 2px solid #0d4f5d;
+}

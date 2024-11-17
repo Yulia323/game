@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 31" width="18" height="31">
+	<title>стрелочка</title>
+	<defs>
+		<image  width="14" height="27" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAbCAMAAAB7jU7LAAAAAXNSR0IB2cksfwAAAEtQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////slWHAAAAABl0Uk5TxwIA/9cG4wzsFvIh9zD6P/1S/mR3jqK2wKJ+hHoAAABqSURBVHicVczZBoBQGEXhvSVJkoZD7/94aZAkSTR39r/uvptFkPAxIHclAm5KhFyViLgoEXNWIuGkRMpRiYyDEsh7QxSdIcrWEJWlM3SN0jW6OiW85Hnr56OPr15+evjrptdF0UkVWKtwAHyfGH3KBfShAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="стрелочка" href="#img1" x="2" y="1"/>
+</svg>
